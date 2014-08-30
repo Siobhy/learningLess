@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Less Lesson</title>
+  <link rel="stylesheet/less" href="less/style.less" type="text/less" >
+</head>
+<body>
+  <header>
+    <h1 class="title">Less-CSS</h1>
+  </header>
+  <aside>
+    <nav>
+      <a href="https://blog.compete.com/wp-content/uploads/2013/04/cats-1.jpg">Cats</a>
+      <a href="http://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2013/09/12/101030476-142452387r.530x298.jpg?v=1379009056">Beer</a>
+      <a href="http://t2.gstatic.com/images?q=tbn:ANd9GcT72Ic7AKNUaN9aV3RqvbczsbOLEWOiUZkZ97rJkcrKqojlFxjY">Drawing</a>
+    </nav>
+  </aside>
+  <article>
+    <header>
+      <h1>Introduction</h1>
+    </header>
+    <content>
+      <p>Less is a CSS pre-processor, meaning that it extends the CSS language, adding features that allow variables, mixins, functions and many other techniques that allow you to make CSS that is more maintainable, themable and extendable.</p>
+      <p>Less runs inside Node, in the browser and inside Rhino. There are also many 3rd party tools that allow you to compile your files and watch for changes.</p>
+    </content>
+  </article>
+    
+  <footer>
+    &copy; 2014 - cool people
+  </footer>
+</body>
+  <script>
+  less = {
+    env: "development",
+    async: false,
+    fileAsync: false,
+    poll: 1000,
+    functions: {},
+    dumpLineNumbers: "comments",
+    relativeUrls: false,
+    rootpath: ":/a.com/"
+  };
+</script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/1.7.4/less.min.js"></script>
+
+
+</html>
